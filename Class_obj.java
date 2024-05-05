@@ -16,7 +16,7 @@ class person
 
  //public by default
 
- String person="tayban";
+ String name="tayban";
  int age =22; 
 
   
