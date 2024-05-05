@@ -1,10 +1,7 @@
 class Class_obj
 {
 
- //public by default
-
- String person="tayban";
- int age =22;
+ 
   
 public static void main(String arg[]){
 
@@ -15,7 +12,11 @@ public static void main(String arg[]){
 
   }
 }
+class person
 
- 
+ //public by default
+
+ String person="tayban";
+ int age =22; 
 
   
