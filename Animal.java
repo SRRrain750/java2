@@ -67,9 +67,9 @@ public class Animal {
       Dog dog=new Dog();
       Tuktuk tuktuk=new Tuktuk();
         
-      dog.set("summy",2,black);
+      dog.set("summy",2,"black");
       dog.get();
-       tuktuk.set("Tuktuk",1,gray);
+       tuktuk.set("Tuktuk",1,"gray");
         tuktuk.get();
       
     }
