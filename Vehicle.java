@@ -45,6 +45,8 @@ public class Vehicle {
      Car car=new Car();  
      TwoVehiler veh=new TwoVehiler();
      veh.setcar("Thar","black","200000");
-     veh.Vehiler.getcar();
+     veh.getcar();
+     veh.set("MH-2023");
+     veh.get();
     }
 }
