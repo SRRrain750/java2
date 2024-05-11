@@ -10,13 +10,13 @@ class Car{
     String colur;
     String prize;
     
-    void set(String name,String colur,String prize){
+    void setcar(String name,String colur,String prize){
         this.name=name;
         this.colur=colur;
         this.prize=prize;
     }
     
-    void get(){
+    void getcar(){
         System.out.println("Vehicle name"+name);
         System.out.println("Vehicle colur"+colur);
         System.out.println("vehical prize"+prize);
@@ -42,9 +42,9 @@ class TwoVehiler extends Car{
 
 public class Vehicle {
     public  static void main(String args[]){
-     Car.car=new Car();  
-     TwoVehiler.veh=new TwoVehiler();
-     TwoVehiler.set("Thar","black","200000");
-     TwoVehiler.get();
+     Car car=new Car();  
+     TwoVehiler veh=new TwoVehiler();
+     veh.setcar("Thar","black","200000");
+     veh.Vehiler.getcar();
     }
 }
