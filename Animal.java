@@ -38,14 +38,14 @@ class  Tuktuk extends Dog{
     String colur;
     
   
-void set(String name,int weight,String colur)
+void set(int weight)
 {
 
 this.name=name;
 this.weight=weight;
 this.colur=colur;  
     
-    
+}  
     
     
  
@@ -67,12 +67,11 @@ public class Animal {
       Dog dog=new Dog();
       Tuktuk tuktuk=new Tuktuk();
         
-     // dog.set("summy");
-     // dog.set(2);
-      
-      //dog.set("black");
-      
+      dog.set("summy",2,black);
+      dog.get();
+       tuktuk.set("Tuktuk",1,gray);
+        tuktuk.get();
       
     }
 }
-}
+
