@@ -8,7 +8,7 @@ class Rectangle implements Shape
 private  double length;
 private double width;
 
-public Ractangle(double length,double width){
+public Rectangle(double length,double width){
 this.length=length;
 this.width=width;
 
@@ -51,8 +51,8 @@ this.base=base;
 this.height=height;
 
 }
-public void getAera(){
-retrun 0.5*base*height;
+public double getAera(){
+return0.5*base*height;
 
 }
 }
@@ -62,11 +62,11 @@ class Interfacepact
 
 public  static void main(String args[])
 {
-Ractangle r=new.Ractangle(12,10);
-Circle c=new.Circle(6);
-Triangle t=new.Triangle(4,6);
-System.out.println("aera of the Rectangle:"+Rectangle.getAera());
-System.out.println("aera of the cricle:"+Circlele.getAera());
-System.out.println("aera of the triangle:"Triangle.getAera());
+Ractangle r=new Ractangle(12,10);
+Circle c=new Circle(6);
+Triangle t=new Triangle(4,6);
+System.out.println("aera of the Rectangle:"+r.getAera());
+System.out.println("aera of the cricle:"+c.getAera());
+System.out.println("aera of the triangle:"t.getAera());
 }
 }
