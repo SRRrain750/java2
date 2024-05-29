@@ -1,0 +1,54 @@
+package com.mycompany.collectionframework;
+
+import java.io.*;
+
+class Employee 
+{
+
+    int id;
+    String name;
+
+    Employee(int i, String n)
+    {
+        id = i;
+        name = n;
+    }
+
+    void displayData()
+    {
+        System.out.println(id + "\t" + name);
+    }
+}
+
+    public class Group 
+    {
+
+        public static void main(String arr[]) throws IOException 
+        {
+
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+            Employee arr[]=new Employee[5]; 
+
+
+          //  Employee arr[] = new Employee[5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                System.out.println("Enter id:");
+                int id = Integer.parseInt(br.readLine());
+
+                System.out.println("Enter name:");
+                String name = br.readLine();
+
+                arr[i] = new Employee(id, name);
+
+            }
+            System.out.println("\nThe employee data is:");
+            for (int i = 0; i < arr.length; i++)
+            {
+                arr[i].displayData();
+            }
+        }
+    }
+  
