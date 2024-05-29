@@ -23,7 +23,7 @@ class Employee
     public class Group 
     {
 
-        public static void main(String arr[]) throws IOException 
+        public static void main(String args[]) throws IOException 
         {
 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
